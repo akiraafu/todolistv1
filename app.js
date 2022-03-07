@@ -1,7 +1,7 @@
 
 let input = prompt('what would you like to do?');
 
-const todoList = ['Buy apple', 'Clean the floor'];
+const todoList = ['Buy apples', 'Clean the floor'];
 
 while (input.toLowerCase() !== 'quit' && input.toLowerCase() !== 'q') {
     if (input.toLowerCase() === "list") {
